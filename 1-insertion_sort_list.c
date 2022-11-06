@@ -1,5 +1,4 @@
 #include "sort.h"
-
 /**
  * insertion_sort_list - function that sorts a doubly linked list
  *                       of integers in ascending order using the Insertion
@@ -7,6 +6,7 @@
  * @list: doubly linked list
  * Return: void
  */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *node = NULL, *tmp = NULL;
