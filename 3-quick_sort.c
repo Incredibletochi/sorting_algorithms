@@ -2,7 +2,7 @@
 
 /**
  * quick_sort - function that sorts an array of integers
- * 		in ascending order using the Quick sort algorithm
+ * in ascending order using the Quick sort algorithm
  * @array: array
  * @size: array's size
  * Return: void
@@ -70,4 +70,4 @@ void quick_s(int *array, int lo, int hi, size_t size)
 		quick_s(array, lo, pivot - 1, size);
 		quick_s(array, pivot + 1, hi, size);
 	}
-}
+i}
